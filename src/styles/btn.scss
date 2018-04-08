@@ -1,0 +1,26 @@
+.ht_btn_default:hover,.ht_btn_default.loading{
+  background-color: #7aabff!important;
+  text-decoration: none;
+}
+.ht_btn_default.loading:before,.ht_btn_danger.loading:before{
+  content: "\E61E";
+  margin-right: 5px;
+  animation: rotating 2s linear infinite;
+  font-family: element-icons!important;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: baseline;
+  display: inline-block;
+}
+.ht_btn_default_empty:hover{
+  border-color: #98b5fc!important;
+  color: #98b5fc!important;
+}
+.ht_btn_danger:hover,.ht_btn_danger.loading{
+  background-color: #ed7179!important;
+  text-decoration: none;
+}
